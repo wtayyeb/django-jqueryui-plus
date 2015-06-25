@@ -11,7 +11,7 @@ except IOError:
 
 setup(
     name			='django-jqueryui-plus',
-    version			='1.11.1',
+    version			='1.10.4',
     url				="http://github.com/wtayyeb/django-jqueryui-plus",
     description		='jQuery UI packaged in an handy django app to speed up new applications and deployment.',
     long_description=long_description,
