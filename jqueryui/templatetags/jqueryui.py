@@ -17,9 +17,9 @@ class _AppConf(AppConf):
 	THEME_CDN			 = False
 	THEME_DEFAULT_CDN	 = 'http://code.jquery.com/ui/%(version)s/themes/%(theme)s/jquery-ui.min.css'
 
-	STATIC_JS			 = '%(static_url)sjs/jquery/ui/%(version)s/jquery-ui.min.js'
-	STATIC_CSS			 = '%(static_url)sjs/jquery/ui/%(version)s/themes/%(theme)s/jquery-ui.min.css'
-	STATIC_CUSTOM_CSS	 = '%(static_url)sjs/jquery/ui/%(version)s/jquery-ui.min.css'
+	STATIC_JS			 = '%(static_url)sjquery/ui/%(version)s/jquery-ui.min.js'
+	STATIC_CSS			 = '%(static_url)sjquery/ui/%(version)s/themes/%(theme)s/jquery-ui.min.css'
+	STATIC_CUSTOM_CSS	 = '%(static_url)sjquery/ui/%(version)s/jquery-ui.min.css'
 
 	SCRIPT_TAG			 = '<script type="text/javascript" src="%(url)s"></script>'
 	LINK_TAG			 = '<link rel="stylesheet" type="text/css" href="%(url)s" />'
