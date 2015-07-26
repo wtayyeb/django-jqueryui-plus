@@ -32,6 +32,7 @@ setup(
         'Topic :: Utilities',
     ],
     packages		=find_packages(),
-    package_data	={'jquery': ['static/jquery/ui/*.js', ]},
+    include_package_data =True,
+    zip_safe		=False,
 	install_requires=['django-appconf', ],
 )
