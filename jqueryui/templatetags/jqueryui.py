@@ -5,12 +5,14 @@ from django import template
 from django.conf import settings
 from django.template.base import TextNode
 
+from .. import __version__
+
 
 register		 = template.Library()
 
 
 class _AppConf(AppConf):
-	VERSION				 = '1.11.4'
+	VERSION				 = __version__
 	CDN					 = False
 	DEFAULT_CDN			 = 'http://code.jquery.com/ui/%(version)s/jquery-ui.min.js'
 	THEME				 = 'redmond'
