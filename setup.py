@@ -27,6 +27,7 @@ setup(
     keywords='django jqueryui staticfiles templatetags',
     packages=find_packages(),
     install_requires=['django-appconf', ],
+    include_package_data=True,
     zip_safe=False,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
