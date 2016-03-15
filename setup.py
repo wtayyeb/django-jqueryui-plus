@@ -10,9 +10,9 @@ except IOError:
     long_description = None
 
 setup(
-    name			='django-jqueryui-plus',
+    name			='static-jqueryui',
     version			='1.10.4',
-    url				="http://github.com/wtayyeb/django-jqueryui-plus",
+    url				="http://github.com/wtayyeb/static-jqueryui",
     description		='jQuery UI packaged in an handy django app to speed up new applications and deployment.',
     long_description=long_description,
     author			='wtayyeb',

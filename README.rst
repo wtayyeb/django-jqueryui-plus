@@ -1,5 +1,5 @@
-Django jQuery UI Plus
-==================
+Static jQuery UI
+================
 
 Requirements
 ------------
@@ -13,7 +13,7 @@ Installation
 
 ::
 
-    $ pip install django-jqueryui-plus
+    $ pip install static-jqueryui
 
 
 Setup
@@ -42,7 +42,7 @@ You can refer to jquery in your template with::
 
 	{% load jqueryui %}
 	{% jqueryui_js %}
-	{% jqueryui_js 1.7.2 %}
-	{% jqueryui_css 1.7.2 %}
-	{% jqueryui_css 1.7.2 redmond %}
+	{% jqueryui_js 1.10.4 %}
+	{% jqueryui_css 1.10.4 %}
+	{% jqueryui_css 1.10.4 redmond %}
 
